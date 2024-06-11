@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="src" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Azure.AI.OpenAI" Version="1.0.0-beta.17" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="9.0.0-preview.4.24266.19" />
+      <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.0-preview.4.24266.19" />
+      <PackageReference Include="Microsoft.Playwright" Version="1.44.0" />
+      <PackageReference Include="Microsoft.Playwright.NUnit" Version="1.44.0" />
+      <PackageReference Include="Microsoft.Playwright.TestAdapter" Version="1.44.0" />
+      <PackageReference Include="NUnit" Version="4.1.0" />
+      <PackageReference Include="OpenAI" Version="2.0.0-beta.3" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <_ContentIncludedByDefault Remove="src\obj\AI Usability Tester.csproj.nuget.dgspec.json" />
+      <_ContentIncludedByDefault Remove="src\obj\Debug\net8.0\AI Usability Tester.sourcelink.json" />
+      <_ContentIncludedByDefault Remove="src\obj\Debug\net8.0\staticwebassets.build.json" />
+      <_ContentIncludedByDefault Remove="src\obj\Debug\net8.0\staticwebassets.development.json" />
+      <_ContentIncludedByDefault Remove="src\obj\Debug\net8.0\staticwebassets.pack.json" />
+      <_ContentIncludedByDefault Remove="src\obj\project.assets.json" />
+      <_ContentIncludedByDefault Remove="src\obj\project.packagespec.json" />
+    </ItemGroup>
+
+</Project>

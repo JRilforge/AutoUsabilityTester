@@ -1,0 +1,37 @@
+{
+  "Files": [
+    {
+      "Id": "/Users/rilforge/RiderProjects/AutoTester/AutoTester/wwwroot/app.css",
+      "PackagePath": "staticwebassets/app.css"
+    },
+    {
+      "Id": "/Users/rilforge/RiderProjects/AutoTester/AutoTester/wwwroot/bootstrap/bootstrap.min.css",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/rilforge/RiderProjects/AutoTester/AutoTester/wwwroot/bootstrap/bootstrap.min.css.map",
+      "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css.map"
+    },
+    {
+      "Id": "/Users/rilforge/RiderProjects/AutoTester/AutoTester/wwwroot/favicon.png",
+      "PackagePath": "staticwebassets/favicon.png"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.AutoTester.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.build.AutoTester.props",
+      "PackagePath": "build\\AutoTester.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildMultiTargeting.AutoTester.props",
+      "PackagePath": "buildMultiTargeting\\AutoTester.props"
+    },
+    {
+      "Id": "obj/Debug/net8.0/staticwebassets/msbuild.buildTransitive.AutoTester.props",
+      "PackagePath": "buildTransitive\\AutoTester.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
