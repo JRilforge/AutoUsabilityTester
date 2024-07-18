@@ -103,9 +103,12 @@ public class TesterController : ControllerBase
         // Navigate to a website
         await page.GotoAsync(task.website);
         
-        var options = new PageScreenshotOptions();
+        // https://playwright.dev/dotnet/docs/screenshots
 
-        var currentPageImage = BinaryData.FromBytes(await page.ScreenshotAsync(options));
+        var currentPageImage = BinaryData.FromBytes(await page.ScreenshotAsync(new()
+        {
+            FullPage = true
+        }));
 
         ChatCompletionsOptions ccOptions = new ChatCompletionsOptions()
         {

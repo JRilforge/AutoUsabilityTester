@@ -16,6 +16,12 @@ public class Tests : PageTest
     public async Task HasTitle()
     {
         await Page.GotoAsync("https://playwright.dev");
+        
+        await Page.ScreenshotAsync(new()
+        {
+            Path = "playwright-screenshot.png",
+            FullPage = true,
+        });
 
         // Expect a title "to contain" a substring.
         await Expect(Page).ToHaveTitleAsync(new Regex("Playwright"));

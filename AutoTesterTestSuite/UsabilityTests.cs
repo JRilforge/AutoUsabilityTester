@@ -10,12 +10,35 @@ namespace AutoTester;
 public class UsabilityTest : PageTest
 {
     [Test]
-    public async Task HasTitle()
+    public async Task ChatboxLoadsCorrectly()
     {
-        await Page.GotoAsync("https://playwright.dev");
+        await Page.GotoAsync("http://localhost:5267/");
 
-        // Expect a title "to contain" a substring.
-        await Expect(Page).ToHaveTitleAsync(new Regex("Playwright"));
+        await Expect(Page).ToHaveTitleAsync("Home");
+
+        var heroTitle = Page.Locator("#title");
+        var messenger = Page.Locator("#messenger");
+
+        await Expect(heroTitle).ToHaveTextAsync("AutoTester");
+        await Expect(messenger).ToBeVisibleAsync();
+    }
+
+    [Test]
+    public async Task TaskSubmissionStartsWebsocketConnection()
+    {
+        
+    }
+
+    [Test]
+    public async Task TaskIncorrectlySubmittedResultsInValidError()
+    {
+        
+    }
+
+    [Test]
+    public async Task TaskSubmissionPerformsActionsAndReportsStates()
+    {
+        
     }
 
     [Test]

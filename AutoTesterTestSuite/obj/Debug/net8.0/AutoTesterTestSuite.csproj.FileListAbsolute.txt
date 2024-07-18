@@ -402,3 +402,4 @@
 /Users/rilforge/RiderProjects/AutoTester/AutoTesterTestSuite/obj/Debug/net8.0/AutoTesterTestSuite.pdb
 /Users/rilforge/RiderProjects/AutoTester/AutoTesterTestSuite/obj/Debug/net8.0/AutoTesterTestSuite.genruntimeconfig.cache
 /Users/rilforge/RiderProjects/AutoTester/AutoTesterTestSuite/obj/Debug/net8.0/ref/AutoTesterTestSuite.dll
+/Users/rilforge/RiderProjects/AutoTester/AutoTesterTestSuite/obj/Debug/net8.0/AutoTesterTestSuite.sourcelink.json
