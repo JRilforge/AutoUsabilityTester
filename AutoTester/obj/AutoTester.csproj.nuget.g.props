@@ -15,7 +15,4 @@
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)nunit/4.1.0/build/NUnit.props" Condition="Exists('$(NuGetPackageRoot)nunit/4.1.0/build/NUnit.props')" />
   </ImportGroup>
-  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
-    <PkgNewtonsoft_Json Condition=" '$(PkgNewtonsoft_Json)' == '' ">/Users/rilforge/.nuget/packages/newtonsoft.json/9.0.1</PkgNewtonsoft_Json>
-  </PropertyGroup>
 </Project>

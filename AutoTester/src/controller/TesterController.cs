@@ -7,6 +7,8 @@ using AutoTester.util;
 using Azure.AI.OpenAI;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Playwright;
+using Newtonsoft.Json;
+using JsonSerializer = System.Text.Json.JsonSerializer;
 
 namespace AutoTester.controller;
 
@@ -30,6 +32,13 @@ public class TesterController : ControllerBase
         {
             HttpContext.Response.StatusCode = StatusCodes.Status400BadRequest;
         }
+    }
+    
+    [Route("/messages-between")]
+    [HttpGet]
+    public async Task<ActionResult> GetMessagesBetween(string a, string b)
+    {
+        return new JsonResult(new { foo = "bar", baz = "Blech" });
     }
     
     private async Task Handshake(WebSocket webSocket)

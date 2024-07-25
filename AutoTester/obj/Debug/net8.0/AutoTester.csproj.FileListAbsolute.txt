@@ -428,3 +428,4 @@
 /Users/rilforge/RiderProjects/AutoTester/AutoTester/obj/Debug/net8.0/AutoTester.genruntimeconfig.cache
 /Users/rilforge/RiderProjects/AutoTester/AutoTester/obj/Debug/net8.0/ref/AutoTester.dll
 /Users/rilforge/RiderProjects/AutoTester/AutoTester/obj/Debug/net8.0/AutoTester.sourcelink.json
+/Users/rilforge/RiderProjects/AutoTester/AutoTester/bin/Debug/net8.0/System.IO.Pipelines.dll

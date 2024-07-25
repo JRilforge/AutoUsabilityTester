@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/app.css"
     },
     {
+      "Id": "/Users/rilforge/RiderProjects/AutoTester/AutoTester/wwwroot/app.js",
+      "PackagePath": "staticwebassets/app.js"
+    },
+    {
       "Id": "/Users/rilforge/RiderProjects/AutoTester/AutoTester/wwwroot/bootstrap/bootstrap.min.css",
       "PackagePath": "staticwebassets/bootstrap/bootstrap.min.css"
     },

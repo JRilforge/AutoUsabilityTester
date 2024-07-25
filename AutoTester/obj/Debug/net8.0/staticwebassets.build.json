@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vaXyxLsilgnmam2NtKzYAsOeI62qdEl6lR/VMhqQ/uM=",
+  "Hash": "PGAPuTFDfFlu+9g9l58D63x7gYFUiGu4m1hfhBnNB+E=",
   "Source": "AutoTester",
   "BasePath": "_content/AutoTester",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/app.css"
+    },
+    {
+      "Identity": "/Users/rilforge/RiderProjects/AutoTester/AutoTester/wwwroot/app.js",
+      "SourceId": "AutoTester",
+      "SourceType": "Discovered",
+      "ContentRoot": "/Users/rilforge/RiderProjects/AutoTester/AutoTester/wwwroot/",
+      "BasePath": "_content/AutoTester",
+      "RelativePath": "app.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/app.js"
     },
     {
       "Identity": "/Users/rilforge/RiderProjects/AutoTester/AutoTester/wwwroot/bootstrap/bootstrap.min.css",
